@@ -1,0 +1,276 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:rgb(20 19 19);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(0 0 0);
+    position: fixed;
+    top:0;
+    width :100%;
+
+}
+.logo{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    /*for space */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(194, 194, 232);
+    
+    
+}
+
+.left {
+    font-size: 1.1rem;
+}
+
+                                                    /*HOME*/
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4.9rem;
+}
+
+.firstSection>div {
+    width: 30%;
+
+}
+  .space{
+    margin: auto;
+    padding: 43px;
+  }
+.buttons{
+    top:10px;
+}
+
+.home .btn {
+
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 8px;
+    background-color: rgb(68, 68, 69);
+    color: white;
+    border: 2px solid white;
+}
+
+
+.rightSection {
+    font-size: 150%;
+    margin: 30px 0;
+
+}
+
+.leftSection {
+    width: 50%;
+}
+
+.nr {
+    color: rgb(177, 177, 186);
+}
+
+#element {
+    color: rgb(172, 151, 220);
+}
+/*for hr line*/
+main hr {
+    border: 0;
+    background-color:rgb(69 66 77);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+                                                           /*about */
+.about{
+    width: 80vw;
+        height: 65vh;
+        margin: auto;
+    
+    }
+    .leftSections{
+    
+            margin : -5px 113px;
+            position: relative;
+            top: 44px;
+            color: gray;
+            width: 721px;
+            font-size: 25px;
+            margin-left: 105px;
+    }
+    
+                                                      /* Skills*/
+
+.skills {
+    width: 80vw;
+    height: 65vh;
+    margin: auto;
+}
+
+.text-grey {
+    color: grey;
+    text-align: center;
+}
+
+.secondSection .box {
+    top: px;
+    background: rgb(186, 136, 209);
+    width: 80vw;
+    height: 2px;
+    margin: 76px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 80px;
+    width: 1px;
+    background-color: white;
+    margin: 0 90px;
+}
+html{
+    scroll-behavior: smooth;
+   scroll-padding-top: 100px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -33px;
+    left: -10px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 82px;
+    width: 150px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 95px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+                                                /*Qualification*/
+
+.qualification {
+    width: 80vw;
+    height: 50vh;
+    margin: auto;
+}
+
+.q-title {
+    font-size: larger;
+    color: rgb(205, 245, 232);
+    margin: 20px 100px;
+    position: relative;
+    top: 39px;
+    width: 150px;
+}
+
+.q-desc {
+    margin: auto;
+    position: relative;
+    top: 36px;
+    color: gray;
+    width: 169px;
+    font-size: 15px;
+
+}
+.quali{
+    display: flex;
+    margin: 7px 71px;
+    align-content: space-between;
+
+}
+footer {
+    background-color: rgb(0, 0, 0);
+    height: 291px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+footer h2{
+    padding: 23px 81px;
+}
+.footercontainer{
+    width:100%;
+    padding:3px -7px 20px;
+}
+.socialIcon{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+.socialIcon a{
+    text-decoration: none;
+    padding: 10px ;
+    background-color:rgb(250, 247, 247);
+    margin:10px;
+    border-radius: 50%;
+}
+.socialIcon a i{
+    font-size: rem;
+    color: rgb(8, 26, 42);
+    opacity: 0.9;
+}
+/* hover effect*/
+.socialIcon a:hover{
+    background-color: rgb(179, 166, 166);
+    transition: 0.5s;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+.footernav ul li a{
+    color: white;
+    margin:20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity:1;
+}
+.footerbottom{
+    background-color:  rgb(30, 29, 30);
+    padding: 9px;
+    text-align: center;
+} 
